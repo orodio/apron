@@ -1,0 +1,43 @@
+{
+  "name": "NAMEGOESHERE",
+  "version": "0.0.0",
+  "description": "DESCRIPTION GOES HERE",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "build": "./node_modules/.bin/webpack -p --progress",
+    "build-dev": "./node_modules/.bin/webpack --progress",
+    "watch": "./node_modules/.bin/webpack --progress --watch",
+    "start": "python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/orodio/apron"
+  },
+  "keywords": [
+    "KEYWORDS",
+    "GO",
+    "HERE"
+  ],
+  "author": "orodio <james@bjorkman.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orodio/apron/issues"
+  },
+  "homepage": "https://github.com/orodio/apron",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.8",
+    "babel": "^5.0.7",
+    "babel-core": "^5.0.7",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.9.1",
+    "jest-cli": "^0.4.0",
+    "postcss": "^4.1.2",
+    "postcss-loader": "^0.3.0",
+    "postcss-media-minmax": "^1.1.0",
+    "postcss-nested": "^0.2.2",
+    "postcss-simple-vars": "^0.2.4",
+    "style-loader": "^0.9.0",
+    "webpack": "^1.7.3"
+  }
+}
